@@ -1,0 +1,60 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: blueviolet;
+  width: 800px;
+}
+
+h1 {
+  color: aquamarine;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
+  width: 340px;
+  height: 340px;
+  background-color: cadetblue;
+  border-radius: 5%;
+  border: 5px dotted;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: justify;
+  font-size: 1.3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.box1 {
+  position: flex;
+  justify-content: center;
+  width: 378px;
+  height: 370px;
+  /*  background-color: cadetblue; */
+  background: linear-gradient(90deg, rgb(143, 12, 132), yellow, rgb(37, 37, 126));
+  border-radius: 5%;
+  border: 2px solid;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.box3 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: bisque;
+  animation-name: mojave;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mojave {
+  50% {
+    left: 98%;
+  }
+}
